@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D90E9551C74824500215E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90E9541C74824500215E18 /* main.m */; };
+		6D90E9581C74824500215E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90E9571C74824500215E18 /* AppDelegate.m */; };
+		6D90E95B1C74824500215E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90E95A1C74824500215E18 /* ViewController.m */; };
+		6D90E95E1C74824500215E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D90E95C1C74824500215E18 /* Main.storyboard */; };
+		6D90E9601C74824500215E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D90E95F1C74824500215E18 /* Assets.xcassets */; };
+		6D90E9631C74824500215E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D90E9611C74824500215E18 /* LaunchScreen.storyboard */; };
+		6D90E96C1C74826300215E18 /* NAStatusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D90E96B1C74826300215E18 /* NAStatusButton.m */; };
+		6DDCD81C1C76F32D00FB50EB /* NAThirdOrderBerzier.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DDCD81A1C76F32D00FB50EB /* NAThirdOrderBerzier.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D90E9501C74824500215E18 /* NaButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D90E9541C74824500215E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D90E9561C74824500215E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D90E9571C74824500215E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D90E9591C74824500215E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D90E95A1C74824500215E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D90E95D1C74824500215E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D90E95F1C74824500215E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D90E9621C74824500215E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D90E9641C74824500215E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D90E96A1C74826300215E18 /* NAStatusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAStatusButton.h; sourceTree = "<group>"; };
+		6D90E96B1C74826300215E18 /* NAStatusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAStatusButton.m; sourceTree = "<group>"; };
+		6DDCD81A1C76F32D00FB50EB /* NAThirdOrderBerzier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NAThirdOrderBerzier.c; sourceTree = "<group>"; };
+		6DDCD81B1C76F32D00FB50EB /* NAThirdOrderBerzier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAThirdOrderBerzier.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D90E94D1C74824500215E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D90E9471C74824500215E18 = {
+			isa = PBXGroup;
+			children = (
+				6D90E9521C74824500215E18 /* NaButton */,
+				6D90E9511C74824500215E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D90E9511C74824500215E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D90E9501C74824500215E18 /* NaButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D90E9521C74824500215E18 /* NaButton */ = {
+			isa = PBXGroup;
+			children = (
+				6D90E9561C74824500215E18 /* AppDelegate.h */,
+				6D90E9571C74824500215E18 /* AppDelegate.m */,
+				6D90E9591C74824500215E18 /* ViewController.h */,
+				6D90E95A1C74824500215E18 /* ViewController.m */,
+				6D90E95C1C74824500215E18 /* Main.storyboard */,
+				6D90E95F1C74824500215E18 /* Assets.xcassets */,
+				6D90E9611C74824500215E18 /* LaunchScreen.storyboard */,
+				6D90E9641C74824500215E18 /* Info.plist */,
+				6D90E9531C74824500215E18 /* Supporting Files */,
+				6D90E96A1C74826300215E18 /* NAStatusButton.h */,
+				6D90E96B1C74826300215E18 /* NAStatusButton.m */,
+				6DDCD81B1C76F32D00FB50EB /* NAThirdOrderBerzier.h */,
+				6DDCD81A1C76F32D00FB50EB /* NAThirdOrderBerzier.c */,
+			);
+			path = NaButton;
+			sourceTree = "<group>";
+		};
+		6D90E9531C74824500215E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D90E9541C74824500215E18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D90E94F1C74824500215E18 /* NaButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D90E9671C74824500215E18 /* Build configuration list for PBXNativeTarget "NaButton" */;
+			buildPhases = (
+				6D90E94C1C74824500215E18 /* Sources */,
+				6D90E94D1C74824500215E18 /* Frameworks */,
+				6D90E94E1C74824500215E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaButton;
+			productName = NaButton;
+			productReference = 6D90E9501C74824500215E18 /* NaButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D90E9481C74824500215E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LJH;
+				TargetAttributes = {
+					6D90E94F1C74824500215E18 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2H5B82A5NY;
+					};
+				};
+			};
+			buildConfigurationList = 6D90E94B1C74824500215E18 /* Build configuration list for PBXProject "NaButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D90E9471C74824500215E18;
+			productRefGroup = 6D90E9511C74824500215E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D90E94F1C74824500215E18 /* NaButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D90E94E1C74824500215E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D90E9631C74824500215E18 /* LaunchScreen.storyboard in Resources */,
+				6D90E9601C74824500215E18 /* Assets.xcassets in Resources */,
+				6D90E95E1C74824500215E18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D90E94C1C74824500215E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D90E95B1C74824500215E18 /* ViewController.m in Sources */,
+				6D90E9581C74824500215E18 /* AppDelegate.m in Sources */,
+				6D90E96C1C74826300215E18 /* NAStatusButton.m in Sources */,
+				6D90E9551C74824500215E18 /* main.m in Sources */,
+				6DDCD81C1C76F32D00FB50EB /* NAThirdOrderBerzier.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D90E95C1C74824500215E18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D90E95D1C74824500215E18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D90E9611C74824500215E18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D90E9621C74824500215E18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D90E9651C74824500215E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D90E9661C74824500215E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D90E9681C74824500215E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.na.nanabutton.NaButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D90E9691C74824500215E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = con.na.nanabutton.NaButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D90E94B1C74824500215E18 /* Build configuration list for PBXProject "NaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D90E9651C74824500215E18 /* Debug */,
+				6D90E9661C74824500215E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D90E9671C74824500215E18 /* Build configuration list for PBXNativeTarget "NaButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D90E9681C74824500215E18 /* Debug */,
+				6D90E9691C74824500215E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D90E9481C74824500215E18 /* Project object */;
+}
